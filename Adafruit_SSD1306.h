@@ -40,7 +40,6 @@ typedef class HardwareSPI SPIClass;
 #include <SPI.h>
 #include <Wire.h>
 
-
 #if defined(__AVR__)
 typedef volatile uint8_t PortReg;
 typedef uint8_t PortMask;
